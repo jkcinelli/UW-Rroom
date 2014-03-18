@@ -6,7 +6,7 @@ sigSq <- 0.5
 x <- runif(40)
 y <- a + b*x +rnorm(40, sd = sqrt(sigSq))
 plot(x,y)
-abline(a,b, col="blue")
+abline(a,b, col="pink")
 dev.print(png, "toylinePlot.png", width=480)
 dev.print(pdf, "toylinePlot.pdf")
 
